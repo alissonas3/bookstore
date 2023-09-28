@@ -1,0 +1,61 @@
+.header_books {
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header_menu {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container_img {
+    padding: 1em;
+}
+
+.menu_list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container_button:checked~.menu_list {
+    display: block;
+}
+
+.menu_list_title,
+.menu_list_item {
+    padding: 1em;
+    background-color: var(--white-color);
+}
+
+.menu_list_title {
+    color: var(--orange-color);
+    font-weight: 700;
+}
+
+.menu_list_link {
+    background: var(--blue-degrade-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}
+
+.container_button {
+    display: none;
+}

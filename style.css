@@ -1,0 +1,23 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/carousel.css");
+
+:root {
+    --backg-color: #EBECEE;
+    --white-color: #FFFFFF;
+    --orange-color: #EB9B00;
+    --blue-degrade-color: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
+    --main-font: "Poppins";
+}
+
+body {
+    background-color: var(--backg-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.swiper-wrapper {
+
+}
