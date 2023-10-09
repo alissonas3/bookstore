@@ -1,14 +1,22 @@
 @import url("./styles/header.css");
 @import url("./styles/banner.css");
 @import url("./styles/carousel.css");
+@import url("./styles/topics.css");
+@import url("./styles/info.css");
+@import url("./styles/footer.css");
 
 :root {
     --backg-color: #EBECEE;
     --white-color: #FFFFFF;
     --orange-color: #EB9B00;
+    --blue-color: #002F52;
+    --black-color: rgba(0, 0, 0, 0.85);
     --blue-degrade-color: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --gray-color: #474646;
+    --light-gray-color: #858585;
 
     --main-font: "Poppins";
+    --secondary-font: "Josefin Sans";
 }
 
 body {
@@ -18,6 +26,3 @@ body {
     font-weight: 400;
 }
 
-.swiper-wrapper {
-
-}
