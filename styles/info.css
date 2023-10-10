@@ -59,3 +59,9 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 1530px) {
+    .info {
+        padding: 3em 10vw;
+    }
+}

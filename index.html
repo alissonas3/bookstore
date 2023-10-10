@@ -18,7 +18,7 @@
     <header class="header_books">
         <div class="container">
             <input type="checkbox" id="menu" class="container_button">
-            <label for="menu">
+            <label for="menu" class="container_label">
                 <span class="header_menu container_img"></span>
             </label>
             <ul class="menu_list">
@@ -47,7 +47,7 @@
 
         <ul class="menu_options">
             <input type="checkbox" id="options_menu" class="options_button">
-            <label for="options_menu">
+            <label for="options_menu" class="options_label">
                 <li class="menu_options_item">Categorias</li>
             </label>
 
@@ -116,12 +116,12 @@
                     <div class="swiper-slide"><img src="./assets/Tuning.svg" alt="Livro de SQL"></div>
                     ...
                 </div>
-                
+
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-            
+
             <div class="card">
                 <div class="card_description">
                     <div class="description">
@@ -131,7 +131,7 @@
                     </div>
                     <img class="card_img" src="./assets/Angular.svg" alt="Símbolo do Angular">
                 </div>
-                
+
                 <div class="card_buttons">
                     <ul class="buttons">
                         <li class="button_item"><img src="./assets/Favoritos.svg" alt="Favoritos"></li>
@@ -145,77 +145,79 @@
 
     <section class="carousel">
         <h2 class="carousel_title">Mais Vendidos</h2>
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade"></div>
-                <div class="swiper-slide"><img src="./assets/Portugol.svg" alt="Livro de Linguagem de Programação em Portugol"></div>
-                <div class="swiper-slide"><img src="./assets/AngularBook.svg" alt="Livro de Angular"></div>
-                <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt="Livro de ReactNative"></div>
-                <div class="swiper-slide"><img src="./assets/Nodejs.svg" alt="Livro NodeJs"></div>
-                <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt="Livro de Métricas Ágeis"></div>
-                ...
+        <div class="carousel_container">
+
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="./assets/Acessibilidade.svg" alt="Livro Acessibilidade"></div>
+                    <div class="swiper-slide"><img src="./assets/Portugol.svg"
+                            alt="Livro de Linguagem de Programação em Portugol"></div>
+                    <div class="swiper-slide"><img src="./assets/AngularBook.svg" alt="Livro de Angular"></div>
+                    <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt="Livro de ReactNative"></div>
+                    <div class="swiper-slide"><img src="./assets/Nodejs.svg" alt="Livro NodeJs"></div>
+                    <div class="swiper-slide"><img src="./assets/MetricasAgeis.svg" alt="Livro de Métricas Ágeis"></div>
+                    ...
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="card">
+                <div class="card_description">
+                    <div class="description">
+                        <img src="./assets/Star 1.svg" alt="Avaliações">
+                        <img src="./assets/Star 1.svg" alt="Avaliações">
+                        <img src="./assets/Star 1.svg" alt="Avaliações">
+                        <img src="./assets/Star 1.svg" alt="Avaliações">
+                        <img src="./assets/Star 1.svg" alt="Avaliações">
+                        <h3 class="description_title_author">Autora do Mês</h3>
+                        <h2 class="description_title_book">Juliana Agarikov</h2>
+                        <p class="description_text">Analista de sistemas e escritora, Juliana é especialista em
+                            Front-End. </p>
+                    </div>
+                    <img src="./assets/Escritora.svg" alt="Foto de Perfil da escritora" class="card_img">
+                </div>
+
+                <div class="card_buttons">
+                    <ul class="buttons">
+                        <li class="button_item"><img src="./assets/Favoritos.svg" alt="Favoritos"></li>
+                        <li class="button_item"><img src="./assets/Compras.svg" alt="Carrinho de compras"></li>
+                    </ul>
+                    <a href="#" class="ancor_button">Saiba mais</a>
+                </div>
+            </div>
         </div>
     </section>
-
-    <div class="card">
-        <div class="card_description">
-            <div class="description">
-                <img src="./assets/Star 1.svg" alt="Avaliações">
-                <img src="./assets/Star 1.svg" alt="Avaliações">
-                <img src="./assets/Star 1.svg" alt="Avaliações">
-                <img src="./assets/Star 1.svg" alt="Avaliações">
-                <img src="./assets/Star 1.svg" alt="Avaliações">
-                <h3 class="description_title_author">Autora do Mês</h3>
-                <h2 class="description_title_book">Juliana Agarikov</h2>
-                <p class="description_text">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-            </div>
-            <img src="./assets/Escritora.svg" alt="Foto de Perfil da escritora" class="card_img">
-        </div>
-
-        <div class="card_buttons">
-            <ul class="buttons">
-                <li class="button_item"><img src="./assets/Favoritos.svg" alt="Favoritos"></li>
-                <li class="button_item"><img src="./assets/Compras.svg" alt="Carrinho de compras"></li>
-            </ul>
-            <a href="#" class="ancor_button">Saiba mais</a>
-        </div>
-    </div>
 
     <section class="topics">
         <h2 class="topics_title">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topics_list">
             <li class="topics_item">
-                <a href="#"class="topics_link">Android</a>
+                <a href="#" class="topics_link">Android</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Marketing Digital</a>
+                <a href="#" class="topics_link">Marketing Digital</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Agile</a>
+                <a href="#" class="topics_link">Agile</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Startups</a>
+                <a href="#" class="topics_link">Startups</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">HTML & CSS</a>
+                <a href="#" class="topics_link">HTML & CSS</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Python</a>
+                <a href="#" class="topics_link">Python</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Orientada Objetos</a>
+                <a href="#" class="topics_link">Orientada Objetos</a>
             </li>
             <li class="topics_item">
-                <a href="#"class="topics_link">Java</a>
+                <a href="#" class="topics_link">Java</a>
             </li>
         </ul>
     </section>
@@ -231,7 +233,7 @@
     <hr />
 
     <footer class="footer_section">
-        <h3 class="footer_title">Grupo Alura</h3>
+        <h3 class="footer_title">Grupo BookShop</h3>
 
         <ul class="footer_list">
             <li class="footer_title_list">Educação</li>
@@ -316,7 +318,7 @@
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
-                el: '.swiper-pagination', 
+                el: '.swiper-pagination',
                 type: 'bullets',
             },
         });

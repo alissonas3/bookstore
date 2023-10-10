@@ -16,6 +16,7 @@ hr {
 }
 
 @media screen and (min-width: 1024px) {
+    
     .footer_list {
         display: block;
     }
@@ -47,6 +48,24 @@ hr {
         text-decoration: none;
         color: var(--gray-color);
         margin-left: 0.6em;
+    }
+
+}
+
+@media screen and (min-width: 1530px) {
+    
+    .footer_section {
+        padding: 3em 0;
+
+    }
+
+    .footer_list {
+        border-left: 1px solid var(--light-gray-color);
+        padding-left: 1em;
+    }
+
+    .footer_link:hover {
+        color: var(--hover-color);
     }
 
 }

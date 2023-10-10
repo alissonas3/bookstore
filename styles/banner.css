@@ -46,20 +46,20 @@
     }
 
     .banner_search::placeholder {
-        background-position: 5em;
+        background-position: 4.5em;
         font-size: 16px;
     }
 
 }
 
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1530px) {
     .banner_search {
-        width: 35%;
+        width: 40%;
     }
 
     .banner_search::placeholder {
-        background-position: 7.5em;
+        background-position: 8.5em;
     }
 
     .banner {
